@@ -1,0 +1,16 @@
+classifier_name,dataset_name,accuracy
+FCN,Incentia,0.4066
+FCN,Incentia,0.3686
+FCN,Incentia,0.3886
+FCN,Incentia,0.3946
+FCN,Incentia,0.3926
+KAN,Incentia,0.4313
+KAN,Incentia,0.4293
+KAN,Incentia,0.4293
+KAN,Incentia,0.4293
+KAN,Incentia,0.4293
+FCN_KAN,Incentia,0.6100
+FCN_KAN,Incentia,0.5033
+FCN_KAN,Incentia,0.5313
+FCN_KAN,Incentia,0.5519
+FCN_KAN,Incentia,0.5033

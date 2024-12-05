@@ -1,0 +1,125 @@
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+c:\Users\andre\anaconda3\envs\pykan\lib\site-packages\pytorch_lightning\trainer\connectors\data_connector.py:419: Consider setting `persistent_workers=True` in 'train_dataloader' to speed up the dataloader worker initialization.
+Epoch 99: 100%|██████████| 94/94 [00:23<00:00,  3.96it/s, v_num=2ora, train_loss_step=0.669, train_accuracy_step=0.771, train_f1_step=0.768, train_loss_epoch=0.733, train_accuracy_epoch=0.724, train_f1_epoch=0.722]
+c:\Users\andre\anaconda3\envs\pykan\lib\site-packages\torch\nn\modules\conv.py:370: UserWarning: Using padding='same' with even kernel lengths and odd dilation may require a zero-padded copy of the input be created (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\builder\windows\pytorch\aten\src\ATen\native\Convolution.cpp:1037.)
+  return F.conv1d(
+c:\Users\andre\anaconda3\envs\pykan\lib\site-packages\pytorch_lightning\callbacks\model_checkpoint.py:384: `ModelCheckpoint(monitor='f1')` could not find the monitored key in the returned metrics: ['train_loss', 'train_loss_step', 'train_accuracy', 'train_accuracy_step', 'train_f1', 'train_f1_step', 'train_loss_epoch', 'train_accuracy_epoch', 'train_f1_epoch', 'epoch', 'step']. HINT: Did you call `log('f1', value)` in the `LightningModule`?
+`Trainer.fit` stopped: `max_epochs=100` reached.
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+c:\Users\andre\anaconda3\envs\pykan\lib\site-packages\pytorch_lightning\trainer\connectors\data_connector.py:419: Consider setting `persistent_workers=True` in 'test_dataloader' to speed up the dataloader worker initialization.
+Testing DataLoader 0: 100%|██████████| 24/24 [00:00<00:00, 114.27it/s]
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+HPU available: False, using: 0 HPUs
+c:\Users\andre\anaconda3\envs\pykan\lib\site-packages\pytorch_lightning\loggers\wandb.py:396: There is a wandb run already in progress and newly created instances of `WandbLogger` will reuse this run. If this is not desired, call `wandb.finish()` before instantiating `WandbLogger`.
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+c:\Users\andre\anaconda3\envs\pykan\lib\site-packages\pytorch_lightning\trainer\connectors\data_connector.py:419: Consider setting `persistent_workers=True` in 'train_dataloader' to speed up the dataloader worker initialization.
+Epoch 99: 100%|██████████| 94/94 [00:22<00:00,  4.09it/s, v_num=2ora, train_loss_step=0.710, train_accuracy_step=0.688, train_f1_step=0.684, train_loss_epoch=0.733, train_accuracy_epoch=0.723, train_f1_epoch=0.723]
+`Trainer.fit` stopped: `max_epochs=100` reached.
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+c:\Users\andre\anaconda3\envs\pykan\lib\site-packages\pytorch_lightning\trainer\connectors\data_connector.py:419: Consider setting `persistent_workers=True` in 'test_dataloader' to speed up the dataloader worker initialization.
+Testing DataLoader 0: 100%|██████████| 24/24 [00:00<00:00, 138.16it/s]
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+HPU available: False, using: 0 HPUs
+c:\Users\andre\anaconda3\envs\pykan\lib\site-packages\pytorch_lightning\loggers\wandb.py:396: There is a wandb run already in progress and newly created instances of `WandbLogger` will reuse this run. If this is not desired, call `wandb.finish()` before instantiating `WandbLogger`.
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+c:\Users\andre\anaconda3\envs\pykan\lib\site-packages\pytorch_lightning\trainer\connectors\data_connector.py:419: Consider setting `persistent_workers=True` in 'train_dataloader' to speed up the dataloader worker initialization.
+Epoch 99: 100%|██████████| 94/94 [00:22<00:00,  4.10it/s, v_num=2ora, train_loss_step=0.731, train_accuracy_step=0.750, train_f1_step=0.745, train_loss_epoch=0.742, train_accuracy_epoch=0.712, train_f1_epoch=0.713]
+`Trainer.fit` stopped: `max_epochs=100` reached.
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+c:\Users\andre\anaconda3\envs\pykan\lib\site-packages\pytorch_lightning\trainer\connectors\data_connector.py:419: Consider setting `persistent_workers=True` in 'test_dataloader' to speed up the dataloader worker initialization.
+Testing DataLoader 0: 100%|██████████| 24/24 [00:00<00:00, 136.34it/s]
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+HPU available: False, using: 0 HPUs
+c:\Users\andre\anaconda3\envs\pykan\lib\site-packages\pytorch_lightning\loggers\wandb.py:396: There is a wandb run already in progress and newly created instances of `WandbLogger` will reuse this run. If this is not desired, call `wandb.finish()` before instantiating `WandbLogger`.
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+c:\Users\andre\anaconda3\envs\pykan\lib\site-packages\pytorch_lightning\trainer\connectors\data_connector.py:419: Consider setting `persistent_workers=True` in 'train_dataloader' to speed up the dataloader worker initialization.
+Epoch 99: 100%|██████████| 94/94 [00:23<00:00,  4.00it/s, v_num=2ora, train_loss_step=0.814, train_accuracy_step=0.583, train_f1_step=0.561, train_loss_epoch=0.733, train_accuracy_epoch=0.720, train_f1_epoch=0.718]
+`Trainer.fit` stopped: `max_epochs=100` reached.
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+c:\Users\andre\anaconda3\envs\pykan\lib\site-packages\pytorch_lightning\trainer\connectors\data_connector.py:419: Consider setting `persistent_workers=True` in 'test_dataloader' to speed up the dataloader worker initialization.
+Testing DataLoader 0: 100%|██████████| 24/24 [00:00<00:00, 107.12it/s]
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+HPU available: False, using: 0 HPUs
+c:\Users\andre\anaconda3\envs\pykan\lib\site-packages\pytorch_lightning\loggers\wandb.py:396: There is a wandb run already in progress and newly created instances of `WandbLogger` will reuse this run. If this is not desired, call `wandb.finish()` before instantiating `WandbLogger`.
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+c:\Users\andre\anaconda3\envs\pykan\lib\site-packages\pytorch_lightning\trainer\connectors\data_connector.py:419: Consider setting `persistent_workers=True` in 'train_dataloader' to speed up the dataloader worker initialization.
+Epoch 99: 100%|██████████| 94/94 [00:24<00:00,  3.77it/s, v_num=2ora, train_loss_step=0.766, train_accuracy_step=0.771, train_f1_step=0.758, train_loss_epoch=0.734, train_accuracy_epoch=0.724, train_f1_epoch=0.721]
+`Trainer.fit` stopped: `max_epochs=100` reached.
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+c:\Users\andre\anaconda3\envs\pykan\lib\site-packages\pytorch_lightning\trainer\connectors\data_connector.py:419: Consider setting `persistent_workers=True` in 'test_dataloader' to speed up the dataloader worker initialization.
+Testing DataLoader 0: 100%|██████████| 24/24 [00:00<00:00, 120.22it/s]
+checkpoint directory created: ./kan_fcn
+saving model version 0.0
+| train_loss: 2.88e-01 | test_loss: 1.33e+00 | reg: 7.72e+02 | : 100%|█| 50/50 [01:11<00:00,  1.42s/
+saving model version 0.1
+checkpoint directory created: ./kan_fcn
+saving model version 0.0
+| train_loss: 2.84e-01 | test_loss: 1.59e+00 | reg: 8.60e+02 | : 100%|█| 50/50 [01:13<00:00,  1.46s/
+saving model version 0.1
+checkpoint directory created: ./kan_fcn
+saving model version 0.0
+| train_loss: 3.13e-01 | test_loss: 1.52e+00 | reg: 7.56e+02 | : 100%|█| 50/50 [01:13<00:00,  1.46s/
+saving model version 0.1
+checkpoint directory created: ./kan_fcn
+saving model version 0.0
+| train_loss: 2.44e-01 | test_loss: 1.49e+00 | reg: 8.14e+02 | : 100%|█| 50/50 [01:09<00:00,  1.38s/
+saving model version 0.1
+checkpoint directory created: ./kan_fcn
+saving model version 0.0
+| train_loss: 2.84e-01 | test_loss: 1.59e+00 | reg: 8.60e+02 | : 100%|█| 50/50 [01:12<00:00,  1.45s/
+saving model version 0.1
+Kruskal-Wallis H-statistic: 12.750455373406194, p-value: 0.0017032319483834628
+Comparison: FCN vs KAN, U-statistic: 0.0, p-value: 0.009700785068229596 (alpha=0.016666666666666666)
+Comparison: FCN vs FCN_KAN, U-statistic: 0.0, p-value: 0.011925233593017602 (alpha=0.016666666666666666)
+Comparison: KAN vs FCN_KAN, U-statistic: 0.0, p-value: 0.009467354390313716 (alpha=0.016666666666666666)
+Kruskal-Wallis H-statistic: 12.750455373406194, p-value: 0.0017032319483834628 -> Significant (Reject Null Hypothesis)
+
+Pairwise Comparisons (Mann-Whitney U Test with Bonferroni Correction):
+FCN vs KAN: U-statistic = 0.0, p-value = 0.00970, alpha = 0.01667 -> Significant (Reject Null Hypothesis)
+FCN vs FCN_KAN: U-statistic = 0.0, p-value = 0.01193, alpha = 0.01667 -> Significant (Reject Null Hypothesis)
+KAN vs FCN_KAN: U-statistic = 0.0, p-value = 0.00947, alpha = 0.01667 -> Significant (Reject Null Hypothesis)
+  classifier_name dataset_name  accuracy
+0             FCN     Incentia    0.4066
+1             FCN     Incentia    0.3686
+2             FCN     Incentia    0.3886
+3             FCN     Incentia    0.3946
+4             FCN     Incentia    0.3926
+
+Repeated Measures ANOVA Results:
+                   Anova
+============================================
+                F Value Num DF Den DF Pr > F
+--------------------------------------------
+classifier_name 55.7314 2.0000 8.0000 0.0000
+============================================
+
+
+Repeated Measures ANOVA Results:
+                   Anova
+============================================
+                F Value Num DF Den DF Pr > F
+--------------------------------------------
+classifier_name 55.7314 2.0000 8.0000 0.0000
+============================================
+
+
+Repeated Measures ANOVA Results:
+                   Anova
+============================================
+                F Value Num DF Den DF Pr > F
+--------------------------------------------
+classifier_name 55.7314 2.0000 8.0000 0.0000
+============================================
+
+ Multiple Comparison of Means - Tukey HSD, FWER=0.05
+======================================================
+ group1  group2 meandiff p-adj   lower   upper  reject
+------------------------------------------------------
+    FCN FCN_KAN   0.1498    0.0  0.1046  0.1949   True
+    FCN     KAN   0.0395 0.0888 -0.0056  0.0846  False
+FCN_KAN     KAN  -0.1103 0.0001 -0.1554 -0.0651   True
+------------------------------------------------------

@@ -61,7 +61,7 @@ class TimeSeriesClassifier(LightningModule):
         else:
             y_pred = torch.argmax(logits, dim=1).cpu().detach().numpy()
             y_true = labels.cpu().detach().numpy()
-        loss = self.loss_fn(logits, labels.float())
+        loss = self.loss_fn(logits, labels.type(torch.LongTensor).to(self.device))
         
         acc = accuracy_score(y_pred=y_pred, y_true=y_true)
         f1 = f1_score(y_pred=y_pred, y_true=y_true, average='macro')
